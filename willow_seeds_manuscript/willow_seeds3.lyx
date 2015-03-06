@@ -1,0 +1,2627 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+% For adding line numbers.  Remove % comments below when you want them
+\usepackage{lineno,setspace}
+\linenumbers
+%Makes headings and captions more compact
+\usepackage[small,compact]{titlesec}
+\usepackage[small,it]{caption}
+%reduces white space around figures, tables, and algorithms
+%\addtolength{\textfloatsep}{-20mm}
+%\addtolength{\belowcaptionskip}{-3mm}
+%\addtolength{\abovecaptionskip}{-3mm}
+%\addtolength{\intextsep}{-3mm}
+%allows bold greek letters in LaTex math entered as ERT
+\usepackage{bm}
+% code for shortcuts for writing out distribution names.  Follows JAGS syntax.
+%\DeclareMathOperator{\dbinl}{binomial}
+%\DeclareMathOperator{\dpois}{Poisson}
+%\DeclareMathOperator{\dnorm}{normal}
+%\DeclareMathOperator{\dlnorm}{lognormal}
+%\DeclareMathOperator{\dgam}{gamma}
+%\DeclareMathOperator{\dunif}{uniform}
+%\DeclareMathOperator{\dmultinom}{multinomial}
+%\DeclareMathOperator{\dbeta}{beta}
+%Creates spiffy headers and footers
+\usepackage{fancyheadings}
+\lhead{}
+\chead{}
+\rhead{}
+%allows use of urls
+\usepackage{url}
+%Great package for handling tables and figures in manuscripts.  Uncomment to use.
+%\usepackage{endfloat}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 12
+\spacing double
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine natbib_authoryear
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+A height threshold for seed production by Willow (
+\shape italic
+Salix
+\shape default
+ 
+\emph on
+spp.
+\emph default
+): implications for state change following wolf reintroduction in Yellowstone
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+Ann Raiho
+\begin_inset Formula $^{1,2,3}$
+\end_inset
+
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\series bold
+Contact Information
+\series default
+: Natural Resource Ecology Laboratory, D227 Natural and Environmental Sciences
+ Building, Colorado State University, Fort Collins CO, 80523; raiho@colostate.edu
+; 01-970-491-3151
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \enskip{}
+\end_inset
+
+, N.
+ Thompson Hobbs
+\begin_inset Formula $^{1,2,3}$
+\end_inset
+
+, David Cooper
+\begin_inset Formula $^{2,4}$
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Standard
+\align center
+Kristin Marshall
+\begin_inset Formula $^{1,2}$
+\end_inset
+
+, Mevin Hooten
+\begin_inset Formula $^{1,5}$
+\end_inset
+
+, and Dan Paul
+\end_layout
+
+\begin_layout Address
+\begin_inset Formula $^{1}$
+\end_inset
+
+Graduate Degree Program in Ecology, 
+\begin_inset Formula $^{2}$
+\end_inset
+
+Natural Resource Ecology Laboratory, 
+\begin_inset Formula $^{3}$
+\end_inset
+
+Department of Ecosystem Science and Sustainability, 
+\begin_inset Formula $^{4}$
+\end_inset
+
+Department of Forest and Rangeland Stewardship, 
+\begin_inset Formula $^{5}$
+\end_inset
+
+Department of Fish, Wildlife, and Conservation Biology, Colorado State Universit
+y, Fort Collins, CO 80523-1499, USA 
+\end_layout
+
+\begin_layout Address
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+The removal of a top predator leading to an alternative stable state is
+ a major area of ecological research.
+ The movement into the alternative state is often caused when the ecosystem
+ crosses a critical threshold.
+ In many situations, it is the objective of managers to revert that ecosystem
+ back to its historical state.
+ This is accomplished by identifying a threshold for restoration.
+ Yellowstone National Park is an iconic example of a system that shifted
+ into an alternative stable state following the removal of wolves (
+\shape italic
+Canis lupus
+\shape default
+) in the early 1900s.
+ Wolves were then reintroduced in 1995 with the goal of transitioning the
+ ecosystem back to its original state.
+ However, after almost 20 years of wolf presence in Yellowstone, the willow
+ (
+\shape italic
+Salix
+\shape default
+) populations in Yellowstone's riparian areas have not recovered.
+ There may be several reasons for this phenomena, but one problem may be
+ that willow are not producing enough seeds.
+ A willow height threshold for restoration has been proposed for Yellowstone
+ National Park's willow (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "kay1991reduction"
+
+\end_inset
+
+).
+ Here, we present a Bayesian, zero-inflated Poisson regression which uses
+ height and seed rain data from 21 randomly selected observational site
+ across Yellowstone's Northern Range to estimate a willow height threshold
+ for restoration.
+ We found that the threshold height for willow seed production is very close
+ to 100 cm from stem base to tallest stem.
+ This model gives managers a new perspective on estimating ecological thresholds
+ as well as rigorous basis for a willow height threshold for restoration.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+
+\lang american
+A wealth of empirical data has substantiated the seminal theoretical prediction
+ of 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "lewontin1969population"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "holling1973resilience"
+
+\end_inset
+
+ that populations, communities, and ecosystems can undergo abrupt, qualitative
+ changes in response to biotic and environmental drivers (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "scheffer2009early"
+
+\end_inset
+
+).
+ The point at which these changes occur is known as an ecological threshold,
+ or in somewhat more contemporary language, a tipping point (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "dakos2013editorial"
+
+\end_inset
+
+).
+ The movement of systems beyond ecological thresholds can result in alternative
+ states, some of which resist reorganization to their original configuration
+ over broad ranges of environmental conditions (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "suding2004alternative"
+
+\end_inset
+
+).
+ A much-studied threshold in ecology is population growth rate.
+ When the instantaneous growth rate is less than 0, the population will
+ decline, eventually to extinction.
+ Qualitative shifts in population growth from increases to declines can
+ ripple throughout ecosystems, causing changes in the structure of communities
+ that stabilize alternative states (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "scheffer2001catastrophic"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+
+\lang american
+Changes in landscape conditions on the northern range of Yellowstone National
+ Park after the loss of wolves from the ecosystem and the subsequent release
+ of the park's elk population from control by predators has been widely
+ cited as a landmark example of an alternative state that developed following
+ the reorganization of a terrestrial food web (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "ripple2012trophic,suding2004alternative,terborgh2001ecological,wolf2007hydrologic"
+
+\end_inset
+
+).
+ A key feature of this state was the loss willows from riparian zones.
+ The disappearance of willows was caused, at least in part, by the failure
+ of young plants to establish, leading to an age-distribution where young
+ plants were dramatically 
+\lang english
+underrepresented (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "wolf2007hydrologic"
+
+\end_inset
+
+)
+\lang american
+ and providing evidence for a negative population growth rate.
+ The loss of willows from the system, in turn, led to self-reinforcing feedbacks
+ to the major source of riparian disturbance, dam building by beaver (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "beschta2006river"
+
+\end_inset
+
+).
+ This feedback occurred because beaver require willows for food and for
+ dam building materials and willows require beaver to create habitat suitable
+ for plant establishment.
+ 
+\lang english
+Seed production alone is not sufficient to assure willow reproduction --
+ viable seeds must disperse to suitable sites on the landscape, which in
+ the case of willow, are patches of bare, moist soil with shallow water
+ tables, conditions that accompany disturbance of streams by beaver.
+ Thus, seed production is a necessary if not a sufficient condition for
+ willow reproduction, and hence, for restoration of riparian communities
+ on the northern range.
+
+\lang american
+ The restoration of wolves to Yellowstone has raised the possibility that
+ the system could reorganize to a configuration resembling the state that
+ prevailed before wolves were extirpated.
+ Demonstrating this reconfiguration depends on identifying ecological thresholds
+ that can be measured on the landscape and that can be functionally related
+ to key processes controlling state transition.
+ W
+\lang english
+illow height has been widely used as an ecological threshold for ecosystem
+ restoration in Yellowstone.
+ Browsing by elk can eliminate reproduction by willows because browsed stems
+ cannot produce catkins, and hence, produce no seeds (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "singer1994ungulate"
+
+\end_inset
+
+).
+ Excessive browsing can reduce the stature of willows to the point that
+ all stems are within reach of browsers, and as a result, production of
+ catkins is virtually eliminated, a condition that was observed for decades
+ following the loss of wolves from the system (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "bilyeu2007assessing"
+
+\end_inset
+
+).
+ These observations gave rise to a widely used threshold for willow restoration,
+ 200 cm, the height at which the upper canopy of willows can reliably escape
+ browsing.
+ Although the 200 cm threshold is based on appealing, rough-hewn logic and
+ is widely cited in papers on ecosystem restoration in Yellowstone (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "gage2005patterns,johnston2011relationships,bilyeu2008water,johnston2007elk,kay1991reduction"
+
+\end_inset
+
+), no one has demonstrated a quantitative, functional basis for a ecological
+ threshold based on willow height.
+\end_layout
+
+\begin_layout Standard
+In this paper, we report investigations of the relationship between willow
+ height and seed production on Yellowstone's northern range.
+ We use this relationship to estimate a threshold at which seed production
+ by willows increases above zero.
+ We offer this threshold as an indicator of necessary conditions for restoration
+ of the riparian zone following reintroduction of wolves.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename hist.all.hts.png
+	lyxscale 75
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+A histogram of the willow heights from over 2200 willows (
+\shape italic
+Salix
+\shape default
+) randomly sampled across Yellowstone's Northern Range.
+ Here we see that most of the willows are between 50 cm and 200 cm suggesting
+ that very little seed is being produced (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "kay1991reduction"
+
+\end_inset
+
+).
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:A-histogram-of"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Materials and Methods
+\end_layout
+
+\begin_layout Subsection
+Study Area
+\end_layout
+
+\begin_layout Standard
+Observations of willow height and seed production were collected from 21
+ randomly selected riparian sites on the northern range of Yellowstone National
+ Park during June and July of 2010.
+ These 21 observational sites were chosen from a sampling frame of stream
+ sections that were either historically known to have beaver or were hypothesize
+d to be a potential habitat for beaver based on gradient and stream order
+ (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "marshall2013stream"
+
+\end_inset
+
+).
+ Sites were selected from the frame using a spatially balanced random sampling
+ algorithm (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "theobald2007using"
+
+\end_inset
+
+).
+ Each observational site ran parallel to a stream for 100m and extended
+ 25m away from the stream margin.
+\end_layout
+
+\begin_layout Subsection
+Observations
+\end_layout
+
+\begin_layout Standard
+Willow seeds were collected using seed traps constructed from 30 cm
+\begin_inset Formula $^{2}$
+\end_inset
+
+ and 60 cm
+\begin_inset Formula $^{2}$
+\end_inset
+
+ plywood boards covered with a layer of adhesive (Tree Tanglefoot
+\begin_inset Formula $^{©}$
+\end_inset
+
+ Contech Inc.).
+ Boards were staked into the ground using shelf brackets which were secured
+ to the underside of each board.
+ Two seed traps were placed 25 m from the margin of the 100 m river length
+ transect line within 5 m of the river bank.
+ These seed traps capture the ambient seed rain for the entire site.
+ A third trap (measuring 30 cm
+\begin_inset Formula $^{2}$
+\end_inset
+
+) was placed on an area within the transect determined optimal for seedling
+ establishment.
+ Willow seeds at each site were counted then removed from all traps each
+ week during the willow seed production season.
+ Every willow within each site was measured from the center of the root
+ base to the highest branch in centimeters.
+\end_layout
+
+\begin_layout Subsection
+Analysis
+\end_layout
+
+\begin_layout Standard
+We sought to estimate a threshold height for willow seed production 
+\begin_inset Formula $\left(\tilde{h}\right)$
+\end_inset
+
+.
+ The number of plants exceeding this threshold should effect the number
+ of seeds produced that exceeded the threshold height required for seed
+ production to occur, so we represent the data with the following equation:
+ 
+\begin_inset Formula 
+\begin{eqnarray}
+x_{i} & = & \sum_{j=1}^{J_{i}}I_{\{h_{ij}\geq\tilde{h}\}}\\
+\tilde{h} & \sim & \mathrm{Discrete\ Uniform}\left(0,300\right)
+\end{eqnarray}
+
+\end_inset
+
+where 
+\begin_inset Formula $j$
+\end_inset
+
+ indexes the individual plants, 
+\begin_inset Formula $i$
+\end_inset
+
+ indexes site, and 
+\begin_inset Formula $I_{\left\{ h_{ij}\ge\tilde{h}\right\} }$
+\end_inset
+
+ is an indicator variable = 1 when the condition within the 
+\begin_inset Formula $\{\}$
+\end_inset
+
+ is true and 0 otherwise.
+ Thus, 
+\begin_inset Formula $x_{i}$
+\end_inset
+
+ is a count of plants equal to or above the estimated threshold height 
+\begin_inset Formula $\left(\tilde{h}\right)$
+\end_inset
+
+ at each site.
+ 
+\end_layout
+
+\begin_layout Standard
+We needed to account for two sources of zeros in counts of seeds: zeros
+ that occurred because there was no seed production at a site and zeros
+ that occurred as a result of sampling error when the true state of average
+ seed production was > 0.
+ These considerations motivated us to use a zero inflated Poisson distribution
+ to represent the relationship between seed production and the number of
+ willows in a stand exceeding the threshold height:
+\begin_inset Formula 
+\begin{eqnarray}
+y_{ik} & \sim & \begin{cases}
+0 & ,\: x_{i}=0\\
+\mathrm{Poisson}(\lambda_{i}w_{ik}) & ,\: x_{i}>0
+\end{cases}\label{eq:mixture model}
+\end{eqnarray}
+
+\end_inset
+
+where 
+\begin_inset Formula $y_{ik}$
+\end_inset
+
+ is the number of seeds per seed trap 
+\begin_inset Formula $k$
+\end_inset
+
+ at a site 
+\begin_inset Formula $i$
+\end_inset
+
+, and 
+\begin_inset Formula $w_{ik}$
+\end_inset
+
+ is an offset giving the area of each seed trap in 
+\begin_inset Formula $m^{2}$
+\end_inset
+
+.
+ Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:mixture model"
+
+\end_inset
+
+ simply says that when there are no plants at the site are above the threshold
+ height 
+\begin_inset Formula $(x_{i}=0)$
+\end_inset
+
+, then we will observe 0 seeds with probability 1.
+ Otherwise, the number of seeds will be a Poisson distributed random variable
+ with mean 
+\begin_inset Formula $\lambda_{i}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+We estimated the mean seed production (i.e., 
+\begin_inset Formula $\lambda_{i},$
+\end_inset
+
+ the intensity parameter of the Poisson) using
+\begin_inset Formula 
+\begin{eqnarray}
+\mathrm{log}(\lambda_{i}) & = & \beta_{0}+\beta_{1}\mathrm{log}(x_{i})+\gamma_{i}\\
+\boldsymbol{\beta} & \sim & \mathrm{Multivariate\ Normal}\left(\boldsymbol{0},\sigma^{2}\boldsymbol{I}\right)\\
+\gamma_{i} & \sim & \text{{Normal}}(0,1)
+\end{eqnarray}
+
+\end_inset
+
+where 
+\begin_inset Formula $\sigma^{2}=5$
+\end_inset
+
+.
+ An extra set of random effect parameters 
+\begin_inset Formula $\left(\gamma_{i}\right)$
+\end_inset
+
+ were added to account for variation in seed detection between sites.
+ Without these parameters, the posterior predictive p-value for the mean
+ squared error was equal to .005, and with these parameters, the dispersion
+ is improved slightly (p-value = 0.07).
+ The full posterior expression is given here,
+\begin_inset Formula 
+\begin{multline}
+\left[\boldsymbol{\gamma},\boldsymbol{\beta},\tilde{h}\biggm\vert\bm{y},\bm{x}\right]\propto\prod_{i=1}^{21}\prod_{k=1}^{3}\left(I_{\{y_{i}=0\}}^{I_{\{x_{i}=0\}}}\mathrm{Poisson}\left(y_{ik}\biggm\vert\lambda_{i}w_{ik}\right)^{I_{\{x_{i}>0\}}}\right)\\
+\times\mathrm{Multivariate\: Normal}\left(\boldsymbol{\beta}\biggm\vert\boldsymbol{0},\sigma^{2}\boldsymbol{I}\right)\mathrm{Discrete\ Uniform}\left(\tilde{h}\biggm\vert0,300\right)\mathrm{Normal}\left(\gamma_{i}\big|0,1\right)
+\end{multline}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Parameter Model
+\end_layout
+
+\begin_layout Standard
+There are twenty-four unobserved quantities in this model, 
+\begin_inset Formula $\tilde{h},\beta_{0},$
+\end_inset
+
+ 
+\begin_inset Formula $\beta_{1}$
+\end_inset
+
+, and 
+\begin_inset Formula $\gamma_{i}$
+\end_inset
+
+.
+ We chose priors based on simulated data that closely imitated the behavior
+ of the observed data.
+ The threshold height parameter has a discrete uniform prior because the
+ willow heights were measured to the nearest centimeter resulting in a discrete
+ height dataset.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Implementation
+\end_layout
+
+\begin_layout Standard
+Marginal posterior distributions of states, parameters, and model predictions
+ were estimated using Markov chain Monte Carlo (MCMC) methods in the R computing
+ environment (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "rdevelopment2011team"
+
+\end_inset
+
+).
+ Parameters were estimated using a random walk Metropolis-Hastings algorithm
+ with discrete uniform and normal proposal distributions tuned to provide
+ an acceptance rate of between 20% and 60% (See Appendix for full conditional
+ distributions).
+ Three chains were chosen for each estimated quantity.
+ Convergence was assured by inspection of trace plots with varying initial
+ conditions (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "brooks1998general"
+
+\end_inset
+
+).
+ All code and trace plots for this model can be found in the appendix.
+\end_layout
+
+\begin_layout Section
+Results
+\end_layout
+
+\begin_layout Standard
+In Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:The-marginal-posterior"
+
+\end_inset
+
+, we show the marginal posterior distributions of the model parameters,
+ and in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:The-means-and"
+
+\end_inset
+
+ we report the means and 95% credible intervals of each parameter.
+ The parameters converged after 20,000 iterations of the MCMC Sampler as
+ indicated by visual inspection of the trace plots for all parameters with
+ a 4,000 iteration burn-in.
+ It is also notable that the model has estimated the lower bound of the
+ seed producing plots as the threshold for seed production (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:This-plot-shows"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename posts.willow.pdf
+	scale 75
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+The marginal posterior distributions of the parameters of interest: threshold
+ height parameter 
+\begin_inset Formula $\left(\tilde{h}\right)$
+\end_inset
+
+, the intercept 
+\begin_inset Formula $\beta_{0},$
+\end_inset
+
+ and the slope 
+\begin_inset Formula $\beta_{1}.$
+\end_inset
+
+ The horizontal line is the prior distribution we defined for the parameter.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:The-marginal-posterior"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Parameter
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lower 95% Credible Interval
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mean
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Upper 95% Credible Interval
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\tilde{h}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+27
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+85
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+145
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\beta_{0}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-1.93
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.60
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.22
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\beta_{1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.81
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.09
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.38
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+The means and 95% credible intervals for each parameter estimated in the
+ model.
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:The-means-and"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename seed_count_site.pdf
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+This plot shows the distribution of willow heights compared to the number
+ of seeds counted at each plot.
+ The vertical line represents the estimated mean of the threshold height
+ for seed production parameter 
+\begin_inset Formula $\left(E(\tilde{h})=85\ \mathrm{cm}\right)$
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:This-plot-shows"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Discussion
+\end_layout
+
+\begin_layout Subsection
+The Willow Height Threshold
+\end_layout
+
+\begin_layout Standard
+Ecological thresholds have important implications for ecosystem management
+ and ecological theory.
+ Yellowstone National Park has been a premier example of a major shift over
+ a critical threshold from one alternative stable state to another following
+ the extirpation of a top predator (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "wolf2007hydrologic"
+
+\end_inset
+
+).
+ The reintroduction of the wolf reduced elk populations by 70% supposedly
+ paving the way for riparian willow recovery (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "ripple2012trophic"
+
+\end_inset
+
+).
+ However, alternative evidence suggests that wolves are not the only species
+ needed to restore the area's original willow populations.
+ Beaver depend on willow for nourishment and protection, so following the
+ extreme decrease in the willow population beavers vacated Yellowstone.
+ Without beaver, willows have been unable to reestablish to historic levels.
+ This self-reinforcing feedback has caused researchers to conclude that
+ Yellowstone has shifted to an elk grassland stable stage (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "wolf2007hydrologic"
+
+\end_inset
+
+).
+ We know that beavers are critical in the process of shifting Yellowstone's
+ ecosystem back to its historical stable state, but we do not know when
+ willows will be able to produce seeds in order to begin the reestablishment
+ process.
+ With this model and randomly collected data, we estimate that the threshold
+ height for willow seed production on Yellowstone's Northern Range has an
+ average of 85 cm.
+ This is well below the previous estimate of by 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "kay1991reduction"
+
+\end_inset
+
+ who believed that the threshold height for seed production was around 200cm.
+ However, we can see in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:hists"
+
+\end_inset
+
+ that our model has estimated the lower bound of the heights of seed producing
+ sites and that the non seed producing sites have very few willows at or
+ above this threshold height.
+ 
+\end_layout
+
+\begin_layout Standard
+The increase of riparian willow is the key to the restoration of Yellowstone,
+ but it cannot occur until more willows are producing seeds.
+ In this study the heights of over 2200 willow were measured and 77% of
+ willow were above the threshold height of 85 cm (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:hists"
+
+\end_inset
+
+).
+ In spite of this high percentage, only 14 of the 21 sites had more than
+ 6 tall willows present.
+ All but one site had several up and coming willows between 25 - 50 cm.
+ This suggests that some sites are on the verge of recovery while other
+ sites still lag behind.
+ Willows will continue to grow because herbivore populations have decreased,
+ but that there do not yet seem to be enough tall plants to allow the willow
+ communities to expand to historic levels at all sites.
+ A tall and populated willow community that facilitates seedling recruitment
+ will allow for willow recovery, but returning to this state may be impossible
+ without beaver to increase water availability and exposed soil for seedling
+ establishment in the riparian corridors.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename hist.hts.pdf
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+This is a density plot of the willow heights measured in this study.
+ The black curve is the density of willow heights for sites that did not
+ produce seeds.
+ The green curve is the density of willow heights for the sites that did
+ produce seeds.
+ The black dotted line is the average willow height across all sites, and
+ the blue dotted line is the mean of the estimated height threshold 
+\begin_inset Formula $\left(\tilde{h}\right)$
+\end_inset
+
+.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:hists"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Threshold Modeling: Generalizations for Management
+\end_layout
+
+\begin_layout Standard
+We have provided a Bayesian structure that can allow managers to input their
+ own knowledge through data, informed priors, and increased number of covariates
+ in a intuitive and rigorous way to determine a threshold value in their
+ own system and to quantify the uncertainty associated with those estimates.
+ This gives the manager and the researcher a Bayesian alternative to the
+ piecewise regression described in 
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "toms2003piecewise"
+
+\end_inset
+
+.
+ Our use of an indicator variable in the process model signals to the flexibilit
+y of this methodology.
+ 
+\end_layout
+
+\begin_layout Standard
+Change-point models are becoming more critical as our world continues to
+ change.
+ Shifts in ecosystems are occurring rapidly.
+ It will be important for managers to understand ecological thresholds and
+ have a quantitative basis for estimating their values (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "estes2011trophic"
+
+\end_inset
+
+).
+ Thresholds often form the basis for management action plans as well as
+ the interpretation of the type of stable state an ecosystem is realizing
+ (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "groffman2006ecological"
+
+\end_inset
+
+).
+ Mistakes in these estimations could lead to mismanagement which could lead
+ to further ecological harm.
+ In Yellowstone National Park, managers need to know these types of critical
+ details for willow reestablishment in order to return the ecosystem to
+ its historical stable state.
+ They have taken courageous steps to reduce the herbivore population by
+ reintroducing wolves, and now they seek to know more about what needs to
+ happen to reconstruct their riparian corridors.
+ Knowing an ecological threshold and the inherent uncertainty is one step
+ in a very complicated problem that can help managers and researchers further
+ understand the transition from one stable state to another.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "WillowBib"
+options "oikos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Appendix
+\end_layout
+
+\begin_layout Subsection*
+R Code for MCMC Algorithm 
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+lstparams "basicstyle={\small},breaklines=true"
+inline false
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+change.pt.pois.regMCMC.no.inflat1 <- function(n.mcmc,X,y.seed,opt.ht.strt,hshape1,hshape2
+,beta,beta.mns,beta.tune,beta.var,error.var,error.tune){
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	###
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	### Subroutines and Libraries 
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	###
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	library(mvtnorm)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	library(data.table)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	dunifdisc<-function(x, min=0, max=1) ifelse(x>=min & x<=max & round(x)==x,
+ 1/(max-min+1), 0)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	runifdisc<-function(n, min=0, max=1) sample(min:max, n, replace=T)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	###
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	### Storage
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	###
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	opt.ht.save=rep(0,n.mcmc)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	beta.save=matrix(0,n.mcmc,2)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	error.save=matrix(0,21,n.mcmc)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	mse.y=rep(0,n.mcmc)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	mse.ypred=rep(0,n.mcmc)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	msediffsave=rep(0,n.mcmc)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	ypred=matrix(0,length(y.seed[,1])*3,n.mcmc)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	msesave=rep(0,n.mcmc)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	###
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	### Initial Conditions
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	###
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	opt.ht = opt.ht.strt
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	error=rep(0,21)	
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	error.mns=rep(0,21)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	W = matrix(c(.5,.25,.25),1,3)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	X1 = data.table(X)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    x = cbind(1,log(X1[,list(A=sum(V3>opt.ht),B=V1),by=V1][,A]))
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+   
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    beta = beta
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	accept.opt.ht = 0
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	accept.beta = 0
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	###
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	### Begin MCMC
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	###
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+		
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	for(k in 1:n.mcmc){
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    if(k%%1000==0) cat(k," ");flush.console()
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    ###    
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    ### Sample Opt.ht
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    ###
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    if (TRUE){
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    opt.ht.star = runifdisc(1,opt.ht-100,opt.ht+100)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    if(opt.ht.star>0 & opt.ht.star<=max(X[,3])){
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    x.star = cbind(1,log(X1[,list(A=sum(V3>opt.ht.star),B=V1),by=V1][,A]))
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+ 	  mh1.ht = sum(dpois(as.vector(y.seed[x.star[,2]>=0,]),as.vector(exp(x.star[x.star[,2
+]>=0,]%*%beta+error[x.star[,2]>=0])%*%W),log=TRUE)) + dunifdisc(opt.ht.star,hshape1
+,hshape2) + dunifdisc(opt.ht,opt.ht.star-100,opt.ht.star+100)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	  mh2.ht = sum(dpois(as.vector(y.seed[x.star[,2]>=0,]),as.vector(exp(x[x.star[,2]>=0,
+]%*%beta+error[x.star[,2]>=0])%*%W),log=TRUE)) + dunifdisc(opt.ht,hshape1,hshape2)
+ + dunifdisc(opt.ht.star,opt.ht-100,opt.ht+100)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	  mh.ht = exp(mh1.ht - mh2.ht)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    if(mh.ht > runif(1)){
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+      opt.ht=opt.ht.star
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+      accept.opt.ht=accept.opt.ht+1
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+      x=x.star
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    }
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    }
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    }
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+   
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+   
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+   
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    ###
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    ### Sample Betas    
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    ###
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    if (TRUE){
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	  beta.star = rnorm(2,beta,beta.tune)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	  mh1.beta = sum(dpois(as.vector(y.seed[x[,2]>=0,]),as.vector(exp(x[x[,2]>=0,]%*%be
+ta.star+error[x[,2]>=0])%*%W),log=TRUE))+dmvnorm(beta.star,beta.mns,beta.var*diag(2)
+,log=TRUE)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	  mh2.beta = sum(dpois(as.vector(y.seed[x[,2]>=0,]),as.vector(exp(x[x[,2]>=0,]%*%be
+ta+error[x[,2]>=0])%*%W),log=TRUE))+dmvnorm(beta,beta.mns,beta.var*diag(2),log=TRU
+E) #rep(beta.var,2)*diag(2)#solve(t(x[x[,2]>0,])%*%x[x[,2]>0,])
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	  mh.beta = exp(mh1.beta-mh2.beta)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+   if(mh.beta > runif(1)){
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+      beta = beta.star
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+      accept.beta = accept.beta+1
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+      
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    }
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    }
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    ###
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    ### Sample Error    
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    ###
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    if (TRUE){
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	  error.star = rnorm(21,error,error.tune)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	  
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	  if (min(exp(x[x[,2]>=0,]%*%beta.star+error.star[x[,2]>=0])%*%W)>=0){
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	  	
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	  mh1.error = dpois(y.seed[x[,2]>=0,],exp(x[x[,2]>=0,]%*%beta.star+error.star[x[,2]
+>=0])%*%W,log=TRUE)+dnorm(error.star[x[,2]>=0],error.mns[x[,2]>=0],error.var,log=TR
+UE)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	  mh2.error = dpois(y.seed[x[,2]>=0,],exp(x[x[,2]>=0,]%*%beta+error[x[,2]>=0])%*%
+W,log=TRUE)+dnorm(error[x[,2]>=0],error.mns[x[,2]>=0],error.var,log=TRUE)
+ #rep(beta.var,2)*diag(2)#solve(t(x[x[,2]>0,])%*%x[x[,2]>0,])
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	  mh.error = exp(mh1.error-mh2.error)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	  mh.index=which(mh.error > runif(length(mh.error[,1])*length(mh.error[1,])),arr.ind
+=TRUE)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+  	  error[unique(mh.index[,1])] = error.star[unique(mh.index[,1])]
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    }
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    }
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    ###
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    ### Calculate Posterior Predictive Checks
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    ###
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	mn.nbinom=exp(x%*%beta+error)%*%W
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    ypred[,k]=rpois(length(mn.nbinom),mn.nbinom)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    mse.y[k]=mean((as.vector(y.seed)-mn.nbinom)^2)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    mse.ypred[k]=mean((ypred-as.vector(mn.nbinom))^2)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+   
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    ###
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    ### Save Values
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    ###
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+        
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	opt.ht.save[k] = opt.ht
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	beta.save[k,] = beta    
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	msediffsave[k]=mse.ypred[k]-mse.y[k]
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	error.save[,k]=error
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+        
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+  }
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    ###
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    ### Create Plots
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    ###
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	n.burn=round(.2*n.mcmc)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	p.value=sum(mse.ypred[n.burn:n.mcmc] > mse.y[n.burn:n.mcmc]) / (n.mcmc - n.burn)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	layout(matrix(1:3,3,1))
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	plot(opt.ht.save[n.burn:n.mcmc],type="l",main="Threshold Height")
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	plot(beta.save[n.burn:n.mcmc,1],type="l",main=expression(paste(beta[0])))
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	plot(beta.save[n.burn:n.mcmc,2],type="l",main=expression(paste(beta[1])))
+ 
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+    list(error.save=error.save,ypred=ypred,msediffsave=msediffsave,p.value=p.value,o
+pt.ht.save=opt.ht.save,beta.save=beta.save,accept.beta=accept.beta,accept.opt.ht=accept.opt.
+ht)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+R Code for Script to Run MCMC Algorithm
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+lstparams "breaklines=true"
+inline false
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+rm(list=ls())
+\end_layout
+
+\begin_layout Plain Layout
+
+#####
+\end_layout
+
+\begin_layout Plain Layout
+
+##### Load and Molt Data
+\end_layout
+
+\begin_layout Plain Layout
+
+#####
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+setwd("/Users/raiho/Documents/Willows")
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+library(reshape)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+library(segmented)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+raw_seeds=read.csv("raw_seeds.csv")
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+melt.raw.seeds=melt(raw_seeds)#,id=c("Site","Trap.Type","X..Seeds"),na.rm=TRUE)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+cast.raw.seeds=cast(melt.raw.seeds, Site ~ Trap.Type , sum)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+#cast.raw.seeds1=cast(melt.raw.seeds, Site ~ Trap.Type , sum)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+remove=c( 11, 12, 20) #,22 to remove WBT1
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+cast.raw.seeds.remove=cast.raw.seeds[-remove,]
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+remove.cols=c(3,4,5,6,7,8)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+seed.count.traps=cast.raw.seeds.remove[,-remove.cols]
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+as.numeric(seed.count.traps[,1])
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+y.seed=as.matrix(seed.count.traps[,2:4])
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+seed.count=rowSums(cast.raw.seeds.remove[,2:10])
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+ht.obs=(read.csv("sex_obs_sites.csv"))
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+seed1=(read.csv("seedrain1.csv"))
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+ht.obs$sex<-NULL
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+ht.obs$species<-NULL
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+head(ht.obs)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+ht.obs=ht.obs[ht.obs[,1]!="Rose",] #Takes Rose out because it has no heights
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+ht.obs[,1]=as.numeric(factor(ht.obs[,1])) #Giving index
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+ht.obs3=matrix(0,1,3)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+ht.obs=matrix(rbind(as.matrix(ht.obs),ht.obs3),2229,3)
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+#####
+\end_layout
+
+\begin_layout Plain Layout
+
+##### Run MCMC #####
+\end_layout
+
+\begin_layout Plain Layout
+
+#####
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+n.mcmc=20000
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+setwd("~/Documents/Willows")
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+source("change.pt.pois.regMCMC.no.inflat1.R")
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+output5 = change.pt.pois.regMCMC.no.inflat1(n.mcmc=n.mcmc,X=ht.obs[1:2228,],y.seed=y.seed,
+opt.ht.strt=50,hshape1=0,hshape2=300,beta=c(-1,1.5),beta.mns=c(0,0),beta.var=c(1,1),b
+eta.tune=c(.5,.1),error.var=.000001,error.tune=.01)
+\end_layout
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+\noindent
+Trace Plots
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename trace.willow.pdf
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Trace plots for parameters for parameters of interest.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename gamma.pdf
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Trace plots of the error parameters for each site 
+\begin_inset Formula $\left(\gamma_{i}\right)$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Full Conditionals
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\left[\tilde{h}\big|\cdot\right] & \propto & \prod_{i=1}^{n}\prod_{k=1}^{3}\left(1_{\{y_{i}=0\}}1_{\{x_{i}=0\}}+1_{\{x_{i}>0\}}\mathrm{Poisson}\left(y_{ik}\big|\lambda_{i}w_{k}\right)\right)\mathrm{Discrete\ Uniform}\left(\tilde{h}\big|0,400\right)\\
+\left[\boldsymbol{\beta}\big|\cdot\right] & \propto & \prod_{x_{i}>0}\prod_{k=1}^{3}\mathrm{Poisson}\left(y_{ik}\big|\lambda_{i}w_{k}\right)\mathrm{N}\left(\boldsymbol{\beta}\big|\boldsymbol{0},\sigma_{\beta}^{2}I\right)\\
+\left[\boldsymbol{\gamma}\big|\cdot\right] & \propto & \prod_{x_{i}>0}\prod_{k=1}^{3}\mathrm{Poisson}\left(y_{ik}\big|\lambda_{i}w_{k}\right)\mathrm{N}\left(\boldsymbol{\gamma}\big|\boldsymbol{0},\sigma_{\gamma}^{2}I\right)
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

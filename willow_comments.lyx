@@ -1,0 +1,154 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Itemize
+stats model
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+more in the paper depending on journal
+\end_layout
+
+\begin_layout Itemize
+talk more about gammas in the results
+\end_layout
+
+\begin_layout Itemize
+sentence for each equation that is for not stats people -- 4 -7 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+specifying that you are trying to find an observed threshold versus finding
+ a threshold that might not exist.
+\end_layout
+
+\begin_layout Itemize
+how much does it matter that people were getting it wrong? What are the
+ consequences? Do a simulation to show that it would be worth getting the
+ right answer.
+ 
+\end_layout
+
+\begin_layout Itemize
+200 cm needs to be in the abstract
+\end_layout
+
+\begin_layout Itemize
+layout wolves and willows situation better in the intro --> trophic cascade
+ OR in the study area
+\end_layout
+
+\begin_layout Itemize
+diagram of how we placed the seed traps
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+establishment soil trap.
+ why? and where?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+good general point
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+moderate sized journal
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+think about the alternative models for detecting thresholds
+\end_layout
+
+\begin_layout Itemize
+detecting thresholds: an applications
+\end_layout
+
+\begin_layout Itemize
+define different size class of willows
+\end_layout
+
+\begin_layout Itemize
+where do willows like to grow? water and climate implications.
+\end_layout
+
+\end_body
+\end_document
